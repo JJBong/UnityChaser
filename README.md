@@ -7,10 +7,11 @@ A Unity ML-Agents based simulation environment that considers situations where m
 <ul>
   The name of this simulation environment is Chaser, which is an environment that takes into account the situation where 1~N red balls follow 1~N blue balls in MxM size map.
   <a href="https://github.com/Unity-Technologies/ml-agents">Unity ML-Agents</a>
-  
-  #State
-  
-  ##Visual Observations
+</ul>
+
+## State
+
+## Visual Observations
   <li>
     Continuous image data from a camera attached to the ball
   </li>
