@@ -7,8 +7,8 @@ A Unity ML-Agents based simulation environment that considers situations where m
 
 ## Documentation
 <ul>
-  The name of this simulation environment is Chaser, which is an environment that considers the situation where 1~N red balls follow 1~N blue balls in MxM size map.
-  The blue ball disappears as soon as it hits the red ball. The game progresses until all blue balls disappear.
+  The name of this simulation environment is Chaser, which is an environment that considers the situation where 1~N red balls chase 1~N blue balls in MxM size map.
+  When the red ball hits a blue ball, the blue ball disappears immediately. The game progresses until every blue ball disappear.
   
 
 ## State
