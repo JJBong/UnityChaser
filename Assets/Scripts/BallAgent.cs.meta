@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 897717ce45610c24287cb414064c9237
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - brain: {instanceID: 0}
+  - pivotTransform: {instanceID: 0}
+  - agent: {instanceID: 0}
+  - target: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
