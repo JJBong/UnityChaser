@@ -8,6 +8,7 @@ A Unity ML-Agents based simulation environment that considers situations where m
 ## Documentation
 <ul>
   The name of this simulation environment is Chaser, which is an environment that takes into account the situation where 1~N red balls follow 1~N blue balls in MxM size map.
+  The blue ball disappears as soon as it hits the red ball. The game progresses until all blue balls disappear.
   
 
 ## State
@@ -31,5 +32,20 @@ Continuous action space
 An action is represented by [x_torque, y_torque]
 </li>
     One torque on each of the x and z axes into the [-1, 1] range
-  
+
+
+## Reward
+<li>
+Red Ball's Reward
+</li>
+    If it catches the blue ball, it gains +1 reward.
+    It gains a reward of -0.001 every step.
+    
+<li>
+Blue Ball's Reward - Preparing...
+</li>
+    If it disappears by a red ball, it gains -1 reward.
+    It gains a reward of +0.001 every step.
+    
 </ul>
+
