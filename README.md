@@ -24,6 +24,8 @@ Vector Observations
 ## Action
 <li>
 Continuous action space
+</li>
+<li>
 An action is represented by [x_torque, y_torque]
 </li>
     One torque on each of the x and z axes into the [-1, 1] range
