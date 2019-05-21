@@ -3,10 +3,12 @@ Multi-agent Reinforcement Learning Environment
 
 A Unity ML-Agents based simulation environment that considers situations where multiple agents may have a common or conflicting purpose in the environment
 
+<a href="https://github.com/Unity-Technologies/ml-agents">Unity ML-Agents</a>
+
 ## Documentation
 <ul>
   The name of this simulation environment is Chaser, which is an environment that takes into account the situation where 1~N red balls follow 1~N blue balls in MxM size map.
-  <a href="https://github.com/Unity-Technologies/ml-agents">Unity ML-Agents</a>
+  
 
 ## State
 <li>
